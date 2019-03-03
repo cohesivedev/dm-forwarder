@@ -1,0 +1,7 @@
+{
+  "name": "dm-forwarder",
+  "main": "index.js",
+  "dependencies": {
+    "twitter-lite": "^0.9.1"
+  }
+}
