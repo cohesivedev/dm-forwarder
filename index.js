@@ -55,6 +55,7 @@ function sendDM(text) {
 
 http.createServer((req, res) => {
     const {headers, method} = req;
+    console.log(headers.referer);
     if (method === 'POST' && headers.referer === REFERER) {
         handlePOST(req)
             .then(getJSONFromFormBody)
