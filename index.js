@@ -103,8 +103,8 @@ function denyRequest(req, res) {
 }
 
 const rateLimiter = new RateLimiterMemory({
-    points:   1,
-    duration: 1
+    points:   3,
+    duration: 30
 });
 
 http.createServer((req, res) => {
