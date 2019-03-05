@@ -2,6 +2,7 @@
 
 Single endpoint API for forwarding form data as Twitter DMs:
 1. HTML form from the `REFERER` URL sends its formData with parameter `msg` as a base64 encoded message
+  - base64 encoding used to avoid complications with encoding and decoding URIs
 2. `dm-forwarder` receives the request and decodes it to get the message text
 3. Then on behalf of the user who has given their keys for the config, it sends this as a DM to the Twitter 
 user under `RECIPIENT_ID`
