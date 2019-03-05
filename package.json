@@ -2,6 +2,7 @@
   "name": "dm-forwarder",
   "main": "index.js",
   "dependencies": {
+    "rate-limiter-flexible": "^0.22.7",
     "twitter-lite": "^0.9.1"
   }
 }

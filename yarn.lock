@@ -20,6 +20,11 @@ oauth-1.0a@^2.2.4:
   resolved "https://registry.yarnpkg.com/oauth-1.0a/-/oauth-1.0a-2.2.5.tgz#943ee55a5c0db5c21143ec27e2f56c6d0e2a5e54"
   integrity sha512-7Y4Gs+2dPOjrlJDzEPdpuH46gzgYeVF7CKOOQNpWKz1nlbWn2rqKSt3oF0By6KxudbOQATEUY74SphuTN0grPg==
 
+rate-limiter-flexible@^0.22.7:
+  version "0.22.7"
+  resolved "https://registry.yarnpkg.com/rate-limiter-flexible/-/rate-limiter-flexible-0.22.7.tgz#8cb2ac3e293e644ab5a0f0029b9b1f5711995c2b"
+  integrity sha512-p828wj9QgkpnTTMoDBrfT0C6+ypFqTWATEbyIoesaH4cZyHxDteAVqj+efCjR1ICF+h6YmALQsXGmyPhyoDKHw==
+
 twitter-lite@^0.9.1:
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/twitter-lite/-/twitter-lite-0.9.1.tgz#bab7a2ff5652d29df7327a9a278d26e1fdc2f8f4"
