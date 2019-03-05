@@ -16,6 +16,8 @@ It is is **rate-limited** to only allow 3 submissions within a 30 second window 
 1. Create a Heroku app
 2. Configure Heroku "Config Vars" (environment variables):
     - Twitter API keys and secrets x 4
+        - You get these by registering for a Twitter Developer account and creating a new app
+        - Ensure your Twitter app has permission to send DMs
     - RECIPIENT_ID should be the [Twitter ID](http://gettwitterid.com)
     - REDIRECT should be a URL that end user gets sent back to after submission
     - REFERER restricts where the endpoint can be reached from
