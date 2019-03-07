@@ -9,7 +9,7 @@ user under `RECIPIENT_ID`
 4. Message arrives for the recipient in their Twitter inbox
 
 `dm-forwarder` was primarily built to handle HTML contact form message submissions. 
-It is is **rate-limited** to only allow 3 submissions within a 30 second window per IP.
+It is **rate-limited** to only allow 3 submissions within a 30 second window per IP.
 
 ## Setup
  
