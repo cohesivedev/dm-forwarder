@@ -89,7 +89,7 @@ function permitRequest(req, res) {
         console.log(`Received from web form!`);
         handlePOST(req)
             .then(getJSONFromFormBody)
-            .then(data => sendDM(data.msg))
+            .then(data => sendDM([data.name, data.msg].join('\n--------\n')))
             .catch(e => console.error(e))
             .finally(() => respondWithHTML(res));
     } else {
